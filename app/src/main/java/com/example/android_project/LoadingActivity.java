@@ -6,7 +6,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class Loading_Activity extends Activity {
+public class LoadingActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
