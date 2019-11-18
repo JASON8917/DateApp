@@ -39,7 +39,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
             preview_age = v.findViewById(R.id.preview_age);
             preview_image = v.findViewById(R.id.preview_image);
             rootView = v;
-
             v.setClickable(true);
             v.setEnabled(true);
             v.setOnClickListener(onClickListener);
@@ -89,7 +88,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
     public int getItemCount() {
         return itemDataList == null ? 0 : itemDataList.size();
     }
-
     public  ItemData getItem(int position){
         return itemDataList != null ? itemDataList.get(position) : null;
     }

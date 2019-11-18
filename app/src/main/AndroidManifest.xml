@@ -26,6 +26,30 @@
         <activity
             android:name=".ItemDetailActivity"
             android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".fragment_first"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name=".fragment_second"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name=".fragment_third"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+
+        <activity
+            android:name=".fragment_fourth"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name=".fragment_fifth"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+            android:name=".fragment_image"
+            android:theme="@android:style/Theme.NoTitleBar" />
     </application>
 
 </manifest>

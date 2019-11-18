@@ -3,10 +3,10 @@ package com.example.android_project;
 import java.io.Serializable;
 
 public class ItemData implements Serializable {
-    private String name;
-    private String urlToImage;
-    private String age;
-    private String residence;
+    public String name;
+    public String urlToImage;
+    public String age;
+    public String residence;
 
     public String getName() {
         return name;
